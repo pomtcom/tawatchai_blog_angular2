@@ -41,9 +41,21 @@
           <a class="blog-nav-item" href="#">Press</a>
           <a class="blog-nav-item" href="#">New hires</a>
           <a class="blog-nav-item" href="#">About</a>
+          
+          <a class="blog-nav-item" routerLink="/test1" routerLinkActive="active">test1</a>
+          <a class="blog-nav-item" routerLink="/test2" routerLinkActive="active">test2</a>
+
+
         </nav>
+        
       </div>
     </div>
+
+
+    <!-- display router view here -->
+    <router-outlet></router-outlet>
+
+
 
     <div class="container">
 
@@ -177,4 +189,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+
+  
 </html>
